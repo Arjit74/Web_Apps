@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the model
-model = joblib.load('E:\\Both\\transport_model.pkl')
+model = joblib.load('transport_model.pkl')
 
 # Set page configuration (optional)
 st.set_page_config(page_title='Transportation Demand Predictor', page_icon='🚗')
